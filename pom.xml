@@ -49,6 +49,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--fix login-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <scope>2.3.0</scope>
+        </dependency>
         <!--SpringBoot校验框架-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
